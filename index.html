@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>What Watch</title>
+  <link rel="shortcut icon" href="./assets/icons/moi.ico">
+  <link rel="stylesheet" href="./styles.css">
+  <!-- PWA -->
+  <link rel="manifest" href="/manifest.json">
+  <link rel="apple-touch-icon" href="/assets/icons/moi.ico">
+  <meta name="apple-mobile-web-app-status-bar" content="white">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta name="theme-color" content="white">
+</head>
+
+<body>
+  <h1>Trouve ton film</h1>
+
+  <form id="searchForm">
+    <input type="text" placeholder="Entrez le titre d'un film" id="searchInput"><br>
+    <input type="submit" value="Rechercher">
+  </form>
+  <div class="result-container">
+    <ul id="result"></ul>
+  </div>
+  <img src="./assets/icons/moi.png" alt="logo">
+  <p> Cette application à était crée Sans librairie ou framework juste avec simplement html, css et js</p>
+
+  <script src="js/app.js"></script>
+  <script src="js/index.js"></script>
+</body>
+
+</html>
