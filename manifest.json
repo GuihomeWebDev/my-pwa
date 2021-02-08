@@ -1,12 +1,12 @@
 {
-    "name": "What Watch",
-    "short_name": "WW",
+    "name": "Trouve ton film",
+    "short_name": "TTF",
     "start_url": "/index.html",
     "display": "standalone",
-    "background_color": "white",
+    "background_color": "purple",
     "theme_color": "white",
     "orientation": "portrait-primary",
-    "icons": [
+    "icons": [      
       {
         "src": "/assets/icons/moi.ico",
         "type": "image/png",
@@ -23,7 +23,7 @@
         "sizes": "128x128"
       },
       {
-        "src": "/assets/icons/icon-144x144.png",
+        "src": "/assets/icons/moi.png",
         "type": "image/png",
         "sizes": "144x144"
       },

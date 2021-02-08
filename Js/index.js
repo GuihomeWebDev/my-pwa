@@ -7,7 +7,7 @@ let movies = [];
 
 const fetchMovies = async () => {
   movies = await fetch(
-    `https://api.themoviedb.org/3/search/movie?api_key=ed82f4c18f2964e75117c2dc65e2161d&query=${search}`
+    `https://api.themoviedb.org/3/search/movie?api_key=686b6a5d3b32916b89aaafc748899cf9&query=${search}`
   ).then((res) => res.json());
   console.log(movies);
 };
@@ -17,10 +17,8 @@ const moviesDisplay = async () => {
 
   movies.results.length = 12;
 
-  result.innerHTML = movies.results
-    .map(
-      (movie) =>
-        `
+  result.innerHTML = movies.results.map((movie) =>
+    `
       <li>
         <h2>${movie.original_title}</h2>
         <div class="card-content">
